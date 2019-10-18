@@ -1,22 +1,66 @@
-.App {
-  text-align: center;
+body {
+  background-color: #e9eef2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.post-body {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #ffffff;
+  width: 481px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-.App-link {
-  color: #09d3ac;
+.profile {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.name-location {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.picture {
+  width: 48px;
+  height: 48px;
+  /* border-radius: 24px; */
+}
+
+.name {
+  height: 24px;
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.25;
+  text-align: left;
+  color: #707070;
+}
+
+.location {
+  height: 18px;
+  font-family: HelveticaNeue;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.13;
+  text-align: left;
+  color: #707070;
+}
+
+.post {
+  margin-left: 10px;
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: left;
+  color: #707070;
+  margin-left: 10px;
+  margin-right: 10px;
 }
